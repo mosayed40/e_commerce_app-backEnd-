@@ -26,3 +26,5 @@ echo json_encode($alldata) ;
 // $items = getAllData("itemstopselling" , "1 = 1 ORDER BY countitems DESC  " , null , false )  ;
 
 // $alldata['items'] = $items ; 
+
+?>
