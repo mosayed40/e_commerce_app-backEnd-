@@ -10,8 +10,10 @@ $comment = filterRequest("comment");
 
 
 $data = array(
+    "orders_rating" =>  $rating,
     "orders_noterating" =>  $comment,
-    "orders_rating" =>  $rating
 );
 
 updateData("orders", $data, "orders_id = $id ");
+
+?>
